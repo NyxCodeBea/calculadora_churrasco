@@ -66,3 +66,62 @@ calcular_custos(qtd_carne, qtd_bebidas, qtd_refri, h, m)
 ```
 
 ---
+### 🔄 A Evolução do Projeto
+
+O projeto passou por duas grandes fases de desenvolvimento:
+
+1.  **Versão 1.0 (CLI):** Focada na lógica matemática e execução via terminal.
+2.  **Versão 2.0 (GUI - Atual):** Implementação de uma **Interface Gráfica** moderna usando a biblioteca **Flet**. Agora o usuário interage com botões e campos de texto, não mais com o console preto.
+
+## 🚀 Funcionalidades (v2.0)
+
+- **🖥️ Interface Visual:** Janela interativa, centralizada e responsiva.
+- **📝 Formatação Rica:** Uso de **Markdown** para exibir os resultados com negrito e organização visual.
+- **🛡️ Tratamento de Erros Visual:** Mensagens de alerta aparecem na própria tela se o usuário inserir dados inválidos (não quebra o app).
+- **💰 Cálculo Automático:**
+  - Carnes (Kg), Cerveja (Latas) e Refrigerante (Latas).
+  - Rateio de custos entre os adultos pagantes.
+
+## 💻 Tecnologias Utilizadas
+
+- **Python 3.x**
+- **Flet:** Framework para construção de interfaces gráficas (Frontend em Python).
+- **Lógica de Markdown:** Para estilização de texto dinâmica.
+
+## 📸 Preview
+
+*<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/514e4d78-984e-4299-b82f-27eb39a7ab49" />
+*
+
+## 🔧 Como Executar o Projeto
+
+Como esta versão utiliza interface gráfica, é necessário instalar uma biblioteca extra.
+
+### Pré-requisitos
+
+1. Tenha o Python instalado.
+2. Instale o **Flet** via terminal:
+```bash
+pip install flet
+
+```
+
+### Rodando o App
+
+Execute o arquivo principal:
+
+```bash
+python nome_do_arquivo.py
+
+```
+
+Uma janela da aplicação se abrirá automaticamente.
+
+## 🧠 Aprendizados
+
+A migração do Terminal para o Visual exigiu uma mudança de mentalidade:
+
+* **De:** Fluxo linear (`input` -> `processamento` -> `print`).
+* **Para:** Orientação a Eventos (O app desenha a tela e aguarda o `on_click` do botão para agir).
+
+---
