@@ -26,7 +26,7 @@ def main(page: ft.Page):
     # Inputs para número de participantes
     homens_input = ft.TextField(label="Número de Homens", width=210, keyboard_type=ft.KeyboardType.NUMBER)
     mulheres_input = ft.TextField(label="Número de Mulheres", width=210, keyboard_type=ft.KeyboardType.NUMBER)
-    criancas_input = ft.TextField(label="Número de Crianças", width=210, keyboard_type=ft.KeyboardType.NUMBER)
+    criancas_input = ft.TextField(label="Número de Crianças", width=210, keyboard_type=ft.KeyboardType.NUMBER)  
 
     # Área para exibir o resultado
     resultado_text = ft.Markdown("", extension_set="gitHubWeb")
@@ -103,6 +103,7 @@ def main(page: ft.Page):
     )
 
     calcular_button.content = botao  # Corrigido para referenciar o botão corretamente
+    
     # 4. Adicionando Elementos à Página
     page.add(   
         titulo,
