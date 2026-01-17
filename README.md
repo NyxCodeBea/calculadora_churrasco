@@ -90,8 +90,8 @@ O projeto passou por duas grandes fases de desenvolvimento:
 
 ## 📸 Preview
 
-*<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/514e4d78-984e-4299-b82f-27eb39a7ab49" />
-*
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/514e4d78-984e-4299-b82f-27eb39a7ab49" />
+
 
 ## 🔧 Como Executar o Projeto
 
